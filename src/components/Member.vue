@@ -42,7 +42,6 @@ export default {
       } else {
         this.status = 0
       }
-      console.log(this.status)
     },
   },
 }

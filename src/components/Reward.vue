@@ -1,6 +1,13 @@
 <template>
-  <div class="reward">
-    <div class="reward__head">
+  <div
+    class="reward"
+    :class="{
+      'reward--keep': status === 1,
+      'reward--decide': status === 2,
+      'reward--remove': status === 3,
+    }"
+  >
+    <div class="reward__head" @click="cycleRewardStatus">
       <div
         class="reward__image"
         :style="{ backgroundImage: 'url(' + reward.image + ')' }"
@@ -23,14 +30,30 @@
 export default {
   name: 'Reward',
   props: ['reward'],
+  data: function() {
+    return {
+      status: 0,
+    }
+  },
+  methods: {
+    cycleRewardStatus() {
+      if (this.status < 3) {
+        this.status++
+      } else {
+        this.status = 0
+      }
+    },
+  },
 }
 </script>
 
 <style lang="scss" scoped>
 .reward {
+  $root: &;
   margin: 0 0 1em 0;
   border: 1px solid #fff;
   position: relative;
+
   &__head {
     position: relative;
   }
@@ -51,13 +74,29 @@ export default {
   &__tiers {
     display: none;
   }
-  &:hover {
+ /* &:hover {
     .reward__tiers {
       display: block;
       position: absolute;
       bottom: 0;
       left: 0;
       background: red;
+    }
+  }*/
+
+  &--keep {
+    #{$root}__head {
+      background: rgba(green, 0.6);
+    }
+  }
+  &--decide {
+    #{$root}__head {
+      background: rgba(yellow, 0.6);
+    }
+  }
+  &--remove {
+    #{$root}__head {
+      background: rgba(red, 0.6);
     }
   }
 }
