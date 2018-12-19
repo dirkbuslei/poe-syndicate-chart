@@ -2,13 +2,16 @@
   <div
     class="member"
     :class="{
-      'member--keep': status === 0,
-      'member--decide': status === 1,
-      'member--remove': status === 2,
+      'member--keep': status === 1,
+      'member--decide': status === 2,
+      'member--remove': status === 3,
     }"
   >
     <div class="member__head" @click="cycleMemberStatus">
-      <div class="member__image"><img :src="member.image" /></div>
+      <div
+        class="member__image"
+        :style="{ backgroundImage: 'url(' + member.image + ')' }"
+      ></div>
       <h2 class="member__name">{{ member.name }}</h2>
     </div>
     <Branch
@@ -34,7 +37,7 @@ export default {
   },
   methods: {
     cycleMemberStatus: function() {
-      if (this.status < 2) {
+      if (this.status < 3) {
         this.status++
       } else {
         this.status = 0
@@ -49,19 +52,22 @@ export default {
 .member {
   $root: &;
   width: (100% / 18);
+  margin-right: 0.25%;
   &--keep {
-    #{$root}__image {
-      border: 2px dashed green;
+    #{$root}__head {
+      background: rgba(green, 0.6);
     }
   }
   &--decide {
-    #{$root}__image {
-      border: 2px dashed yellow;
+    #{$root}__head {
+      background: rgba(yellow, 0.6);
     }
   }
   &--remove {
+    #{$root}__head {
+      background: rgba(red, 0.6);
+    }
     #{$root}__image {
-      border: 2px dashed red;
       &::before {
         content: '';
         display: block;
@@ -90,13 +96,16 @@ export default {
     position: relative;
   }
   &__image {
-    position: relative;
-    img {
-      width: 100%;
-      height: auto;
-      display: block;
-      flaot: left;
-    }
+    padding-bottom: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /*img {*/
+    /*width: 100%;*/
+    /*height: auto;*/
+    /*display: block;*/
+    /*float: left;*/
+    /*}*/
   }
   &__name {
     position: absolute;

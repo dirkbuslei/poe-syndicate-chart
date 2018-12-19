@@ -1,9 +1,5 @@
 <template>
-  <div class="branch">
-    <Reward
-      :reward="branch.reward"
-    ></Reward>
-  </div>
+  <div class="branch"><Reward :reward="branch.reward"></Reward></div>
 </template>
 
 <script>

@@ -1,12 +1,12 @@
 [
   {
     "name": "Aislin",
-    "image": "http://placehold.it/100x100",
+    "image": "https://d1u5p3l4wpay3k.cloudfront.net/pathofexile_gamepedia/b/b2/Aisling_Laffrey%2C_The_Silent_Butcher.png?version=344e225d3bfea0b5aca9cf2fb2023302",
     "branches": [
       {
         "name": "Transportation",
         "reward": {
-          "name": "Veiled Weapon",
+          "name": "double Veiled Weapon",
           "image": "http://placehold.it/100x100",
           "tiers": [
             {
@@ -24,7 +24,7 @@
       {
         "name": "Fortification",
         "reward": {
-          "name": "Veiled Armor",
+          "name": "double Veiled Armor",
           "image": "http://placehold.it/100x100",
           "tiers": [
             {
@@ -42,17 +42,17 @@
       {
         "name": "Research",
         "reward": {
-          "name": "Add veiled mod",
+          "name": "Add a Veiled Mod ",
           "image": "http://placehold.it/100x100",
           "tiers": [
             {
-              "description": "1?"
+              "description": "to a Rare item"
             },
             {
-              "description": "2?"
+              "description": "to a Rare item, with a low chance of adding a second Veiled Mod"
             },
             {
-              "description": "3?"
+              "description": "to a Rare item, with a chance of adding a second Veiled Mod"
             }
           ]
         }
@@ -60,7 +60,7 @@
       {
         "name": "Intervention",
         "reward": {
-          "name": "Veiled Jewellery",
+          "name": "double Veiled Jewellery",
           "image": "http://placehold.it/100x100",
           "tiers": [
             {
@@ -79,7 +79,7 @@
   },
   {
     "name": "Cameria",
-    "image": "http://placehold.it/100x100",
+    "image": "https://d1u5p3l4wpay3k.cloudfront.net/pathofexile_gamepedia/b/b9/Cameria_the_Coldblooded.png?version=3a4333becfc91b5d6617232a7791b763",
     "branches": [
       {
         "name": "Transportation",
@@ -157,7 +157,7 @@
   },
   {
     "name": "Elreon",
-    "image": "http://placehold.it/100x100",
+    "image": "https://d1u5p3l4wpay3k.cloudfront.net/pathofexile_gamepedia/f/f2/Elreon%2C_Light%27s_Judge.png?version=4d10330ff24131bf0f6321241e0eeda5",
     "branches": [
       {
         "name": "Transportation",
@@ -198,7 +198,7 @@
       {
         "name": "Research",
         "reward": {
-          "name": "Unique Jewellery XP",
+          "name": "Unique Jewellery",
           "image": "http://placehold.it/100x100",
           "tiers": [
             {
@@ -235,13 +235,13 @@
   },
   {
     "name": "Gravicius",
-    "image": "http://placehold.it/100x100",
+    "image": "https://d1u5p3l4wpay3k.cloudfront.net/pathofexile_gamepedia/1/14/Gravicius_Reborn.png?version=aee81b459ce71447973678dab3abb639",
     "branches": [
       {
         "name": "Transportation",
         "reward": {
           "name": "Full Stack of Divination Cards",
-          "image": "http://placehold.it/100x100",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/pathofexile_gamepedia/thumb/6/68/Divination_card_inventory_icon.png/48px-Divination_card_inventory_icon.png",
           "tiers": [
             {
               "description": "1?"
@@ -258,8 +258,8 @@
       {
         "name": "Fortification",
         "reward": {
-          "name": "Amassing Divination Cards",
-          "image": "http://placehold.it/100x100",
+          "name": "Random Divination Cards",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/pathofexile_gamepedia/thumb/6/68/Divination_card_inventory_icon.png/48px-Divination_card_inventory_icon.png",
           "tiers": [
             {
               "description": "1?"
@@ -277,16 +277,16 @@
         "name": "Research",
         "reward": {
           "name": "Swap Divination Card",
-          "image": "http://placehold.it/100x100",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/pathofexile_gamepedia/thumb/6/68/Divination_card_inventory_icon.png/48px-Divination_card_inventory_icon.png",
           "tiers": [
             {
-              "description": "1?"
+              "description": "with a new random one"
             },
             {
-              "description": "2?"
+              "description": "with a new random one"
             },
             {
-              "description": "3?"
+              "description": "with a new random one"
             }
           ]
         }
@@ -313,7 +313,7 @@
   },
   {
     "name": "Guff",
-    "image": "http://placehold.it/100x100",
+    "image": "https://d1u5p3l4wpay3k.cloudfront.net/pathofexile_gamepedia/8/82/Guff_Tiny_Grenn.png?version=16b692a63d26abc0b422880021dd567a",
     "branches": [
       {
         "name": "Transportation",
@@ -391,7 +391,7 @@
   },
   {
     "name": "Haku",
-    "image": "http://placehold.it/100x100",
+    "image": "https://d1u5p3l4wpay3k.cloudfront.net/pathofexile_gamepedia/0/0b/Haku%2C_Warmaster.png?version=aff71af1f5e64bf8afb6407ac4d16d5f",
     "branches": [
       {
         "name": "Transportation",
@@ -469,7 +469,7 @@
   },
   {
     "name": "Hillock",
-    "image": "http://placehold.it/100x100",
+    "image": "https://d1u5p3l4wpay3k.cloudfront.net/pathofexile_gamepedia/6/67/Hillock%2C_the_Blacksmith.png?version=bd119352705cd2d09c00e51856791e89",
     "branches": [
       {
         "name": "Transportation",
@@ -532,13 +532,13 @@
           "image": "https://d1u5p3l4wpay3k.cloudfront.net/pathofexile_gamepedia/d/db/Necropolis_Map_%28Betrayal%29_inventory_icon.png",
           "tiers": [
             {
-              "description": "24%"
+              "description": "25%"
             },
             {
-              "description": "26%"
+              "description": "30%"
             },
             {
-              "description": "28%"
+              "description": "35%"
             }
           ]
         }
@@ -547,7 +547,7 @@
   },
   {
     "name": "It That Fled",
-    "image": "http://placehold.it/100x100",
+    "image": "https://d1u5p3l4wpay3k.cloudfront.net/pathofexile_gamepedia/9/9b/It_That_Fled.png?version=c54474eba9b2c6da7763b5b31cf2452c",
     "branches": [
       {
         "name": "Transportation",
@@ -588,17 +588,17 @@
       {
         "name": "Research",
         "reward": {
-          "name": "Gem XP",
+          "name": "Modify a Breachstone",
           "image": "http://placehold.it/100x100",
           "tiers": [
             {
-              "description": "20 million"
+              "description": "making it more challenging and rewarding"
             },
             {
-              "description": "100 million"
+              "description": "making it more challenging and rewarding"
             },
             {
-              "description": "200 million"
+              "description": "making it more challenging and rewarding"
             }
           ]
         }
@@ -625,7 +625,7 @@
   },
   {
     "name": "Janus",
-    "image": "http://placehold.it/100x100",
+    "image": "https://d1u5p3l4wpay3k.cloudfront.net/pathofexile_gamepedia/4/4d/Janus_Perandus.png?version=5bd2042507b0aa729274ae5fc9ce3c79",
     "branches": [
       {
         "name": "Transportation",
@@ -703,7 +703,7 @@
   },
   {
     "name": "Jorgin",
-    "image": "http://placehold.it/100x100",
+    "image": "https://d1u5p3l4wpay3k.cloudfront.net/pathofexile_gamepedia/1/1e/Thane_Jorgin_the_Banished.png?version=3e2462dc7857d18253b3cb52730b06d3",
     "branches": [
       {
         "name": "Transportation",
@@ -744,17 +744,17 @@
       {
         "name": "Research",
         "reward": {
-          "name": "Gem XP",
+          "name": "Transform a non-unique Amulet",
           "image": "http://placehold.it/100x100",
           "tiers": [
             {
-              "description": "20 million"
+              "description": "into a Tier 1 Talisman"
             },
             {
-              "description": "100 million"
+              "description": "into a Tier 2 Talisman"
             },
             {
-              "description": "200 million"
+              "description": "into a Tier 3 Talisman"
             }
           ]
         }
@@ -781,7 +781,7 @@
   },
   {
     "name": "Korell",
-    "image": "http://placehold.it/100x100",
+    "image": "https://d1u5p3l4wpay3k.cloudfront.net/pathofexile_gamepedia/5/53/Korell_Goya%2C_Son_of_Stone.png?version=ebaac42402432efd84108ccfbb92e977",
     "branches": [
       {
         "name": "Transportation",
@@ -859,7 +859,7 @@
   },
   {
     "name": "Leo",
-    "image": "http://placehold.it/100x100",
+    "image": "https://d1u5p3l4wpay3k.cloudfront.net/pathofexile_gamepedia/c/c7/Leo%2C_Wolf_of_the_Pits.png?version=a30bfc246fe0fe8121e164621b2831ff",
     "branches": [
       {
         "name": "Transportation",
@@ -900,17 +900,17 @@
       {
         "name": "Research",
         "reward": {
-          "name": "Gem XP",
+          "name": "Uses \"Orb\" on item",
           "image": "http://placehold.it/100x100",
           "tiers": [
             {
-              "description": "20 million"
+              "description": "Blessed Orb"
             },
             {
-              "description": "100 million"
+              "description": "Divine Orb"
             },
             {
-              "description": "200 million"
+              "description": "Exalted Orb"
             }
           ]
         }
@@ -937,7 +937,7 @@
   },
   {
     "name": "Riker",
-    "image": "http://placehold.it/100x100",
+    "image": "https://d1u5p3l4wpay3k.cloudfront.net/pathofexile_gamepedia/5/5f/Riker_Maloney%2C_Midnight_Tinkerer.png?version=dfca851a78b4c68734886243c9e0429f",
     "branches": [
       {
         "name": "Transportation",
@@ -1015,7 +1015,7 @@
   },
   {
     "name": "Rin",
-    "image": "http://placehold.it/100x100",
+    "image": "https://d1u5p3l4wpay3k.cloudfront.net/pathofexile_gamepedia/a/ab/Rin_Yuushu.png?version=b0559507ca07927a5c8b50b9daebca68",
     "branches": [
       {
         "name": "Transportation",
@@ -1093,7 +1093,7 @@
   },
   {
     "name": "Tora",
-    "image": "http://placehold.it/100x100",
+    "image": "https://d1u5p3l4wpay3k.cloudfront.net/pathofexile_gamepedia/1/11/Tora%2C_the_Culler.png?version=8bddf41cb22db21636697aeff74aecfc",
     "branches": [
       {
         "name": "Transportation",
@@ -1171,7 +1171,7 @@
   },
   {
     "name": "Vagan",
-    "image": "http://placehold.it/100x100",
+    "image": "https://d1u5p3l4wpay3k.cloudfront.net/pathofexile_gamepedia/c/c4/Vagan%2C_Victory%27s_Herald.png?version=40d482b65333139b3148eaa8fd52a068",
     "branches": [
       {
         "name": "Transportation",
@@ -1249,22 +1249,22 @@
   },
   {
     "name": "Vorici",
-    "image": "http://placehold.it/100x100",
+    "image": "https://d1u5p3l4wpay3k.cloudfront.net/pathofexile_gamepedia/7/7f/Vorici%2C_Silent_Brother.png",
     "branches": [
       {
         "name": "Transportation",
         "reward": {
-          "name": "Timed Item Traps",
+          "name": "Chest contains random quality Vaal Gems",
           "image": "http://placehold.it/100x100",
           "tiers": [
             {
-              "description": "Pick one of the items"
+              "description": "1? 10% ?"
             },
             {
-              "description": "Pick one of the items"
+              "description": "2? 15% ?"
             },
             {
-              "description": "Pick one of the items"
+              "description": "3? 20% ?"
             }
           ]
         }
@@ -1272,17 +1272,17 @@
       {
         "name": "Fortification",
         "reward": {
-          "name": "Enchant",
+          "name": "Chest contains jeweller, chromatic and fusing orbs",
           "image": "http://placehold.it/100x100",
           "tiers": [
             {
-              "description": "Gloves"
+              "description": "Chest contains jeweller, chromatic and fusing orbs"
             },
             {
-              "description": "Boots"
+              "description": "Chest contains jeweller, chromatic and fusing orbs"
             },
             {
-              "description": "Helmet"
+              "description": "Chest contains jeweller, chromatic and fusing orbs"
             }
           ]
         }
@@ -1290,17 +1290,17 @@
       {
         "name": "Research",
         "reward": {
-          "name": "Gem XP",
+          "name": "Modify an item to have",
           "image": "http://placehold.it/100x100",
           "tiers": [
             {
-              "description": "20 million"
+              "description": "1 White Socket"
             },
             {
-              "description": "100 million"
+              "description": "1-2 White Socket"
             },
             {
-              "description": "200 million"
+              "description": "1-3 White Socket"
             }
           ]
         }
@@ -1308,7 +1308,7 @@
       {
         "name": "Intervention",
         "reward": {
-          "name": "Harbringer Scarab",
+          "name": "Shaper Scarab",
           "image": "http://placehold.it/100x100",
           "tiers": [
             {
